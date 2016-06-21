@@ -1,4 +1,4 @@
-# CF Sample App Node
+# CF Default App Node
 
 The default Node.js app that will be pushed into the Swisscom Application cloud if no source code is provided.
 
