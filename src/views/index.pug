@@ -22,7 +22,7 @@ block content
   if Object.keys(envVariables).length
     .row(style="margin-top:1em;margin-bottom:1em")
       .col-xs-12
-        h3 System Environment
+        h3 Environment Variables
         pre
           each val, key in envVariables
             p(style="margin-bottom:0.1em") #[strong=key]: #[span.text-danger=val]
