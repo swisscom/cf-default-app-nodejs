@@ -1,0 +1,6 @@
+---
+applications:
+- name: default-app-node
+  memory: 64M
+  buildpack: nodejs_buildpack
+  command: node bin/www

@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  .row(style="margin-top:2em;margin-bottom:1em")
+    .col-xs-12
+      img(src="/images/node.svg" alt="Node.js" style="height:3em")
+
+  .row(style="margin-top:1em;margin-bottom:1em")
+    .col-xs-12
+      h1 This is Node.js in the Cloud!
+      p.lead Congratulations! You successfully pushed a Node.js App into the Cloud.
+
+  .row(style="margin-top:1em;margin-bottom:1em")
+    .col-xs-12
+      .alert.alert-info
+        p #[strong Getting Started]
+        br
+        ul
+          li To push your own source code, either upload it as a ZIP file to the portal or use the #[a(href="https://github.com/cloudfoundry/cli#downloads") cf CLI] instead.
+          li #[a(href="https://docs.developer.swisscom.com/tutorial-node/") This tutorial] will get you started on the whole process.
+
+  .row(style="margin-top:1em;margin-bottom:1em")
+    .col-xs-12
+      h3 System Environment
+      pre
+        each val, key in envVariables
+          p(style="margin-bottom:0.1em") #[strong=key]: #[span.text-danger=val]
+
+  .row(style="margin-top:1em;margin-bottom:1em")
+    .col-xs-12
+      h3 Request Headers
+      pre
+        each val, key in headers
+          p(style="margin-bottom:0.1em") #[strong=key]: #[span.text-danger=val]
+
+  if Object.keys(params).length
+    .row(style="margin-top:1em;margin-bottom:1em")
+      .col-xs-12
+        h3 Request Parameters
+        pre
+          each val, key in params
+            p(style="margin-bottom:0.1em") #[strong=key]: #[span.text-danger=val]
