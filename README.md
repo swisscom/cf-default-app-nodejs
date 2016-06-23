@@ -14,5 +14,5 @@ Based on [Express](http://expressjs.com/).
 ## Run in the cloud
 
 1. Install the [cf CLI](https://github.com/cloudfoundry/cli#downloads)
-1. Run `cf push my-node-app --random-route`
+1. Run `cf push --random-route`
 1. Visit the given URL
