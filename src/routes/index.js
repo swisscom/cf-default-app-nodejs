@@ -7,8 +7,8 @@ const router = new express.Router();
 router.get('/', (req, res) => {
   res.render('index', {
     envVariables: process.env,
-    headers: req.headers,
-    params: req.query
+    reqHeaders: req.headers,
+    reqParams: req.query
   });
 });
 
