@@ -16,3 +16,7 @@ Based on [Express](http://expressjs.com/).
 1. Install the [cf CLI](https://github.com/cloudfoundry/cli#downloads)
 1. Run `cf push --random-route`
 1. Visit the given URL
+
+## Create ZIP
+
+1. Run `zip -r node.js_app.zip bin package.json src`
