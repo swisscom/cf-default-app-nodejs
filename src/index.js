@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 /**
@@ -7,7 +5,7 @@
  */
 
 const app = require('../src/app');
-const debug = require('debug')('cf-default-app-node:server');
+const debug = require('debug')('cf-default-app-nodejs:server');
 const http = require('http');
 
 /**

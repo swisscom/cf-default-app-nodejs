@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   res.render('index', {
     envVariables: process.env,
     reqHeaders: req.headers,
-    reqParams: req.query
+    reqParams: req.query,
   });
 });
 
