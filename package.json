@@ -22,7 +22,7 @@
     "express": "^4.14.1",
     "morgan": "^1.8.1",
     "pug": "^2.0.0-beta3",
-    "serve-favicon": "^2.4.0"
+    "serve-favicon": "^2.4.1"
   },
   "license": "UNLICENSED",
   "repository": {
