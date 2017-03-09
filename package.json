@@ -16,14 +16,14 @@
     "test": "echo \"No tests configured\" && exit 1"
   },
   "dependencies": {
-    "body-parser": "^1.16.1",
+    "body-parser": "^1.17.0",
     "cookie-parser": "^1.4.3",
     "debug": "^2.6.0",
-    "express": "^4.14.1",
+    "express": "^4.15.0",
     "http-status": "^1.0.1",
     "morgan": "^1.8.1",
     "pug": "^2.0.0-beta3",
-    "serve-favicon": "^2.4.0"
+    "serve-favicon": "^2.4.1"
   },
   "license": "UNLICENSED",
   "repository": {
