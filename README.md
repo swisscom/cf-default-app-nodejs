@@ -19,4 +19,4 @@ Based on [Express](http://expressjs.com/).
 
 ## Create ZIP
 
-1. Run `zip -r node.js_app.zip src package.json`
+1. Run `zip -r node.js_app.zip src package.json package-lock.json`
