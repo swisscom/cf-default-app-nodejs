@@ -16,7 +16,7 @@
     "test": "echo \"No tests configured\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.15.4",
+    "express": "^4.16.1",
     "pug": "^2.0.0-rc.4"
   },
   "license": "Apache 2.0",
@@ -28,6 +28,6 @@
     "url": "https://github.com/swisscom/cf-default-app-nodejs/issues"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   }
 }
