@@ -7,7 +7,7 @@
     "express",
     "swisscom application cloud"
   ],
-  "author": "Tobias Fuhrimann <tobias.fuhrimann@swisscom.com",
+  "author": "Tobias Fuhrimann <tobias.fuhrimann@swisscom.com>",
   "private": true,
   "scripts": {
     "start": "node src",
@@ -16,8 +16,8 @@
     "test": "echo \"No tests configured\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "pug": "^2.0.0-rc.4"
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   },
   "license": "Apache 2.0",
   "repository": {
@@ -28,6 +28,6 @@
     "url": "https://github.com/swisscom/cf-default-app-nodejs/issues"
   },
   "engines": {
-    "node": ">=8"
+    "node": "^8.11.1"
   }
 }
