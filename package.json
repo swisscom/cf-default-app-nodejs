@@ -28,6 +28,6 @@
     "url": "https://github.com/swisscom/cf-default-app-nodejs/issues"
   },
   "engines": {
-    "node": "^8.11.1"
+    "node": ">=10"
   }
 }
